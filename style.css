@@ -1,0 +1,47 @@
+body{
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: aliceblue !important;
+}
+
+/* css for welcome page  */
+
+.welcome-page{
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: aliceblue !important;
+    height: 500px;
+    color: black !important;
+    font-family: 'Aclonica' !important;
+
+}
+
+/* media query for small screens  */
+
+@media only screen and  (max-width:600px){
+    .welcome-page{
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    body {
+        background-image: url('images/restaurant-img.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .welcome-page{
+        color: black;
+    }
+}
+
+
+/* media query for big screens  */
+
+@media only screen and  (min-width:600px){
+    .welcome-page{
+        width: 40%;        
+    }
+}
+
+

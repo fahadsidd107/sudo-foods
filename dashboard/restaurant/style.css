@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.navbar-brand{
+    font-family: 'Aclonica' !important;
+}
+
+.navbar-nav li a{
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    cursor: pointer;
+    color: red !important;
+}
+.nav-item a:active{
+    color: red !important;
+
+}
+
+.addFood{
+    width: 80% ;
+    margin-top: 12px;
+}
+
+/* media query for big screens  */
+
+@media only screen and  (min-width:600px){
+    .navbar-nav li a{
+        margin-left: 20px;
+    }
+    .navbar-nav{
+        margin-left: 100px;
+    }
+    .addFood{
+        width: 40% !important;
+    }
+}
+
+/* //set width for add_item */
+
+
+.offcanvas-body{
+    font-size: 20px;
+    font-weight: bold;
+}
+.offcanvas-body div{
+    margin-top: 10px !important;
+}
+.offcanvas-header i{
+    font-size: 60px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.main-cards{
+    width: 30%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+#foodDiv{
+    width: 90% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 15px;   
+    margin-top: 20px;
+    
+}
+/* //set off-canvas width for small scrn  */
+
+@media only screen and  (max-width:600px){
+    .offcanvas-start{
+        width: 300px !important;
+    }
+    .main-cards{
+        width: 90%;
+
+    }
+}
+/* //set off-canvas width for small scrn  */
+
+@media only screen and  (min-width:600px){
+    
+    #foodDiv{
+        margin-left: 4%;
+    }
+}
